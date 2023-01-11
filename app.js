@@ -10,7 +10,7 @@ const keyv = new Keyv({ store: new KeyvMysql("mysql://root:atabey1221@localhost:
 
 // .env Config Reader
 require("dotenv").config({
-   path: "./src/data/.env",
+   path: "./src/data/token.env",
  });
 
  // CLient Init
